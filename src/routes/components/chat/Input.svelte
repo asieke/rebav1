@@ -4,6 +4,7 @@
 	import { ArrowUp } from 'lucide-svelte';
 	import { userData } from '$stores/user';
 	import { suggestionsShowing } from '$stores/application';
+	import { userInterviewComplete } from '$stores/user';
 
 	let messageText = '';
 	$: inputOpacity = messageText.length >= 3 ? 1 : 0.3;
@@ -25,7 +26,9 @@
 	};
 
 	const showSuggestions = async () => {
-		suggestionsShowing.set(true);
+		if ($userInterviewComplete) {
+			suggestionsShowing.set(true);
+		}
 	};
 </script>
 

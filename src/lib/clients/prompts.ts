@@ -25,6 +25,7 @@ export const contextInterview = `
 	4. You can ask the questions in any order that naturally flows in the conversation.  Always ask the user their name first.  NEVER ask multiple questions at once.
 	5. Please ask clarifying questions or re-ask the question in a different way to help get a better answer.
 	6. Please make responses as terse as possible, limit to 1-2 sentences unless absolutely necessary.
+	7. If you are asking the first question, please take 1 sentence to write a friendly introduction before asking question.
 `;
 
 export const contextAdvice = `

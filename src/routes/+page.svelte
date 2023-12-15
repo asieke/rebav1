@@ -59,7 +59,7 @@
 	{:else}
 		<Page>
 			<!-- Offset Top for Mobile Devices -->
-			<div class="absolute z-20 top-0 h-16 bg-purple-500 w-full" style="height: {offsetTop}px" />
+			<div class="absolute z-20 top-0 h-16 bg-slate-950 w-full" style="height: {offsetTop}px" />
 
 			<Backdrop />
 			<Sheets />
